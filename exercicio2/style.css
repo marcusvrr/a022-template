@@ -1,0 +1,19 @@
+header{
+    background-color: lightblue;
+    height: 10vh;
+    position: sticky; /*com fixed altera o tamanho e teria q definir manualmente esse tmanho */
+    top: 0;
+
+}
+main{
+    background-color: lightslategray;
+    height: 120vh;
+}
+footer{
+    background-color: lightcoral;
+    height: 10vh;
+    position: static;
+}
+/* vh - 1% da altura do viewport*/
+/*vw - 1% da largura do viewport*/
+/*% - porcetagem do elemento pai */

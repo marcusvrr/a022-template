@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -25,14 +26,30 @@
     padding: 20px;
     margin: 10px 0;
   }
-  
+  section:nth-child(1){
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+  }
+  section:nth-child(2){
+    text-align: center;
+  }
+  button:active{
+    background-color: rgba(7, 172, 7, 0.901);
+  }
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;/*altera a ordem de sobreposição*/
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  footer:hover{
+    background-color: yellow;
   }
